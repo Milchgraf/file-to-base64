@@ -1,0 +1,29 @@
+{
+  "name": "file-to-base64",
+  "version": "1.0.0",
+  "description": "convert files to base64 string",
+  "main": "index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Milchgraf/file-to-base64.git"
+  },
+  "keywords": [
+    "base64",
+    "converter"
+  ],
+  "author": "Milchgraf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Milchgraf/file-to-base64/issues"
+  },
+  "homepage": "https://github.com/Milchgraf/file-to-base64#readme",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
+}
