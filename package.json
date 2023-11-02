@@ -1,6 +1,6 @@
 {
   "name": "64bases",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "convert files to base64 string",
   "main": "index.js",
   "module": "dist/index.mjs",
